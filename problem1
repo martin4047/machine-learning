@@ -1,0 +1,17 @@
+import numpy as np
+
+In [10]:
+
+l=int(input("no.of rows for a: "))
+m=int(input("no.of columns for a:  "))
+n=int(input("no. of rows for b: "))
+o=int(input("no.of columns for b: "))
+
+a=np.random.random((l,m))
+
+
+b=np.random.random((n,o))
+np.savetxt('a.txt',a)
+x=np.loadtxt('a.txt')
+np.savetxt('b.txt',b)
+y=np.loadtxt('b.txt')
