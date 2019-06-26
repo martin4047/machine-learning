@@ -1,7 +1,5 @@
 import numpy as np
 
-In [10]:
-
 l=int(input("no.of rows for a: "))
 m=int(input("no.of columns for a:  "))
 n=int(input("no. of rows for b: "))
